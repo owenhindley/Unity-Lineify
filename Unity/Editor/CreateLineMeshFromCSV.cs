@@ -96,6 +96,7 @@ public class CreateLineMeshFromCSV : EditorWindow
         foreach (var row in rows)
         {
             var r = row.Replace(" ", string.Empty);
+            r = row.Replace("\r", string.Empty);
             var cols = r.Split(',');
             
             var start = cols[0];
