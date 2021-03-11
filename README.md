@@ -9,6 +9,7 @@ Be warned, you will likely need to experiment a bit with your input geometry in 
 Nice things to try:
 - Normals are exported, so you can acheive fresnel-style effects on wireframes
 - UVs are exported, which combined with moving textures can make for some cool crawling / traffic-at-night-from-a-distance effects.
+- Most Unity shader techniques (including the Default Shader) will work with line-based geometry, I imagine it's just running the fragment shader on a single line of pixels. Vertex shaders work too!
 
 ### Dependencies
 
