@@ -1,7 +1,7 @@
 {
-  "name": "com.owenhindley.unityLineify",
+  "name": "com.owenhindley.lineify",
   "version": "0.1.0",
-  "displayName": "Unity Lineify",
+  "displayName": "Lineify",
   "description": "Houdini + Unity tool to export line-based meshes from Houdini using CSV.",
   "hideInEditor": false,
   "type": "library",
